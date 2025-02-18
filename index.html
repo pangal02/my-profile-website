@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Παναγιώτης Γαλιώτος</title>
+    
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Παναγιώτης Γαλιώτος</h1>
+            <p>Φοιτητής Πληροφορικής</p>
+        </header>
+
+        <section id="about">
+            <img id="profile-img" src="image/20230318_135333-01.jpeg" alt="Φωτογραφία μου">
+            <h2>Σχετικά με Εμένα</h2>
+            <p>Γεια σας! Είμαι τελειόφοιτος φοιτητής Πληροφορικής στο Πανεπιστήμιο Πελοποννήσου. Αγαπώ να εξερευνώ τον
+                κόσμο της τεχνολογίας και να δημιουργώ λύσεις μέσα από τον προγραμματισμό. Πέρα από τον ακαδημαϊκό μου
+                τομέα, με συναρπάζει η γυμναστική και το να παρακολουθώ ποδόσφαιρο, αφού και τα δύο μου δίνουν ενέργεια
+                και κίνητρο.
+
+                Αυτό που με χαρακτηρίζει είναι η ευελιξία μου, η επιθυμία να δοκιμάζω νέα πράγματα και το να συνεργάζομαι με άτομα. Οι αλλαγές δεν με
+                τρομάζουν· αντίθετα, με εμπνέουν να μαθαίνω και να προσαρμόζομαι. Είτε πρόκειται για την ανάπτυξη ενός
+                καινοτόμου project, είτε για την αντιμετώπιση νέων προκλήσεων, πάντα βρίσκω έναν τρόπο να κάνω τη
+                διαφορά.</p>
+        </section>
+
+        <section id="interests">
+            <h2>Τα Ενδιαφέροντά Μου</h2>
+            <ul>
+                <li>Προγραμματισμός</li>
+                <li>Εξέλιξη Τεχνολογίας</li>
+                <li>Ταξίδια</li>
+                <li>Αθλητισμός</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Στοιχεία Επικοινωνίας</h2>
+            <p>Email: <a href="mailto:pangaliotos@gmail.com">pangaliotos@gmail.com</a></p>
+            <p>Ιδρυματικό Email: <a href="mailto:dit20033@go.uop.gr">dit20033@go.uop.gr</a></p>
+            <p>Τηλέφωνο: +30 6981855734</p>
+        </section>
+
+        <section id="work">
+            <h2>Οι Εργασίες Μου</h2>
+            <p><a href="https://github.com/pangal02">GitHub Προφίλ</a></p>
+            <button onclick="toggleContent()">Προβολή Εργασιών</button>
+            <div id="extra-content" style="display: none;">
+            <h3>C</h3>
+            <ol>
+                <li>Dig Dug</li>
+                <p></p>
+                <li>HTML From C</li>
+                <p></p>
+            </ol>
+            <hr>
+            
+                <h3>JAVA</h3>
+            <ol>
+                <li>Refugeoly</li>
+                <p></p>
+                <li>Setings Stage</li>
+                <p></p>
+                <li>Temprature Converter</li>
+                <p></p>
+            </ol>
+            <hr>
+            <h3>Web</h3>
+            <ol>
+                <li>Amorgos Rooms</li>
+            </ol>
+            </div>
+            
+        </section>
+
+        <section id="social">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/παναγιώτης-γαλιώτος-5a69b6333/">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/panagiwths.galiwtos/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/panagiotis.gal/">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        © 2024 Panagiotis Galiotos
+    </footer>
+    <script>
+        function toggleContent() {
+            const content = document.getElementById("extra-content");
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
