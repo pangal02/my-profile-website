@@ -13,6 +13,14 @@ export default function Profile() {
         <div className="space-x-8 text-sm font-medium text-slate-400 hidden sm:block flex items-center">
           <a href="#projects" className="hover:text-white transition-colors">Projects</a>
           <a
+            href="/CV_Panagiotis_Galiotos.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors"
+          >
+            CV
+          </a>
+          <a
             href="mailto:pangaliotos@gmail.com"
             className="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-500 transition-colors ml-4"
           >
@@ -61,6 +69,14 @@ export default function Profile() {
 
             {/* social links remain exact same */}
             <div className="flex gap-4">
+              <a
+                href="/CV_Panagiotis_Galiotos.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-500 transition-colors font-medium"
+              >
+                CV
+              </a>
               <a href="https://github.com/pangal02" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-900 border border-slate-800 rounded-xl hover:bg-slate-800 hover:border-blue-500/50 transition-all text-slate-300 hover:text-blue-400 cursor-pointer">
                 <FaGithub size={24} />
               </a>
